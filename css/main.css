@@ -63,6 +63,8 @@ h3{
   width: 10%;
   display: block;
   position: static;
+  margin-left: 0em;
+  padding-bottom: 2em;
 }
 
 nav{
