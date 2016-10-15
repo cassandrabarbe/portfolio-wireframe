@@ -48,6 +48,7 @@ h1{
 
 h2{
   font-family: 'Oswald', sans-serif;
+  padding-top: 1em;
 }
 
 h3{
@@ -97,6 +98,9 @@ li a {
     width: 25%;
 }
 
+.stuff{
+  padding: 1em;
+}
 
 .white{
   background-color: white;
@@ -131,10 +135,6 @@ footer{
   background: black;
 }
 
-.stuff{
-  padding-right: 5em;
-  padding-left: 5em;
-}
 
 .white{
   color: white;
@@ -149,6 +149,7 @@ footer{
   text-align: center;
 }
 
+
 .bg{
   background-color: #E1C4BB;
 }
@@ -159,6 +160,9 @@ footer{
   nav a{
     padding:.5em;
   }
+  .stuff{
+  padding: .5em;
+  }
 }
 
 @media only screen and (min-width: 25em) {
@@ -168,14 +172,17 @@ footer{
   nav a{
     width: 33.3%;
   }
+  .stuff{
+  padding: 2em;
+  }
 }
 
 @media only screen and (min-width: 38em) {
   h1{
-    margin-right: 4.7em;
+    margin-right: 1em;
   }
   .reverse{
-    margin-right: 14em;
+    margin-right: 2em;
   }
 }
 
