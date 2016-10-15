@@ -156,11 +156,17 @@ footer{
   header{
      width: 100%;
   }
+  nav a{
+    padding:.5em;
+  }
 }
 
 @media only screen and (min-width: 25em) {
   header{
      width: 100%;
+  }
+  nav a{
+    width: 33.3%;
   }
 }
 
