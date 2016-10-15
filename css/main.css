@@ -25,18 +25,25 @@ html{
   font-family: 'Quicksand', sans-serif;
 }
 
+body{
+  padding: 0;
+}
+
 header{
   background-image: url("../images/header.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  padding: 12em;
+  padding-top: 8em;
+  padding-bottom: 8em;
   position: relative;
+
 }
 
 h1{
   font-family: 'Oswald', sans-serif;
   color: white;
+  padding: .5em;
 }
 
 h2{
@@ -71,6 +78,7 @@ h3{
   padding-bottom: 2em;
 }
 
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -86,7 +94,9 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    width: 25%;
 }
+
 
 .white{
   background-color: white;
@@ -105,8 +115,8 @@ a:hover{
 
 .left{
   float:left;
-  padding: 2em;
-  padding-left: 3em;
+  width: 100%;
+  padding: .5em;
 }
 
 .social{
@@ -141,4 +151,31 @@ footer{
 
 .bg{
   background-color: #E1C4BB;
+}
+@media only screen and (min-width: 18em) {
+  header{
+     width: 100%;
+  }
+}
+
+@media only screen and (min-width: 25em) {
+  header{
+     width: 100%;
+  }
+}
+
+@media only screen and (min-width: 38em) {
+  h1{
+    margin-right: 4.7em;
+  }
+  .reverse{
+    margin-right: 14em;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+  h1{
+    margin-right: 0em;
+  }
+  .reverse{}
 }
