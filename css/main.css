@@ -183,6 +183,9 @@ footer{
   .stuff{
   padding-left: 40px;
   }
+  .top{
+    margin-left: 10em;
+  }
 }
 
 @media only screen and (min-width: 38em) {
@@ -193,7 +196,7 @@ footer{
     margin-right: 2em;
   }
   .top{
-    margin-left: 140px;
+    margin-left: 25em;
     padding: 0;
   }
 }
@@ -202,5 +205,7 @@ footer{
   h1{
     margin-right: 0em;
   }
-  .reverse{}
+  .top{
+    margin-left: 35em;
+  }
 }
