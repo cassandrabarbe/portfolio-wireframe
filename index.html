@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 <!DOCTYPE html>
 <html lang="en-ca">
 <head>
@@ -20,49 +24,49 @@
     <div id="top"> <img class="logo" src="images/logo.png" alt="logo"> </div>
       <nav>
         <ul>
-          <li> <a href="#MYSTUFF">MY STUFF</a></li>
-          <li> <a href="#ABOUTME">ABOUT ME</a></li>
-          <li> <a href="#LETSCHAT">LET'S CHAT</a></li>
+          <li> <a itemprop="url" href="#MYSTUFF">MY STUFF</a></li>
+          <li> <a itemprop="url" href="#ABOUTME">ABOUT ME</a></li>
+          <li> <a itemprop="url" href="#LETSCHAT">LET'S CHAT</a></li>
         </ul>
       </nav>
   </div>
 
   <header>
-   <h1 class="exa text-center"> CASSANDRA BARBE </h1>
-   <p class="reverse"> Graphic Design | Print Design | UI/UX Design</p>
+   <h1 itemprop="name" class="exa text-center"> CASSANDRA BARBE </h1>
+   <p itemprop="description" class="reverse"> Graphic Design | Print Design | UI/UX Design</p>
  </header>
 
 
   <div class="grid padding">
-    <h2 id="MYSTUFF" class="unit xs-1 sm-1 m-1 l-1"> MY STUFF </h2>
+    <h2 itemprop="name" id="MYSTUFF" class="unit xs-1 sm-1 m-1 l-1"> MY STUFF </h2>
   </div>
-    <div class="grid">
-    <div class="unit xs-1 sm-1 m-1-2 l-1-2 stuff"> <img src="http://placehold.it/300x300"></div>
-    <div class="unit xs-1 sm-1 m-1-2 l-1-2 stuff"> <img src="http://placehold.it/300x300"></div>
+    <div class="grid pic text">
+    <div class="unit xs-1 sm-1 m-1-2 l-1-2 stuff"> <img itemprop="image" src="http://placehold.it/300x300"></div>
+    <div class="unit xs-1 sm-1 m-1-2 l-1-2 stuff"> <img itemprop="image" src="http://placehold.it/300x300"></div>
   </div>
-  <div class="grid">
-    <div class="unit xs-1 sm-1 m-1-2 l-1-2 stuff"> <img src="http://placehold.it/300x300"></div>
-    <div class="unit xs-1 sm-1 m-1-2 l-1-2 stuff"> <img src="http://placehold.it/300x300"></div>
+  <div class="grid pic text">
+    <div class="unit xs-1 sm-1 m-1-2 l-1-2 stuff"> <img itemprop="image" src="http://placehold.it/300x300"></div>
+    <div class="unit xs-1 sm-1 m-1-2 l-1-2 stuff"> <img itemprop="image" src="http://placehold.it/300x300"></div>
   </div>
-  <div class="grid">
-    <div class="unit xs-1 sm-1 m-1-2 l-1-2 stuff"> <img src="http://placehold.it/300x300"></div>
-    <div class="unit xs-1 sm-1 m-1-2 l-1-2 stuff"> <img src="http://placehold.it/300x300"></div>
+  <div class="grid pic text">
+    <div class="unit xs-1 sm-1 m-1-2 l-1-2 stuff"> <img itemprop="image" src="http://placehold.it/300x300"></div>
+    <div class="unit xs-1 sm-1 m-1-2 l-1-2 stuff"> <img itemprop="image" src="http://placehold.it/300x300"></div>
   </div>
 
 
   <div class="grid bg about clear">
   <div>
-  <h2 id="ABOUTME" class="unit xs-1 sm-1 m-1 l-1"> ABOUT ME </h2>
-  <p class="unit xs-1 sm-1 m-1-2 l-1-2">  Hello! I’m Cassandra, graphic designer here. I love bands, books, and all things art! This is my website, let’s you know what my style is and what i’m capable of doing. After starting my journey in College for Graphic Design I wanted to learn and expand my knowledge in print work, UI/UX design and packaging, now here I am, learning new things everyday! Hope you enjoy! </p>
-  <img class="unit xs-1 sm-1 m-1-2 l-1-2"src="images/me.png"></div>
+  <h2 itemprop="name" id="ABOUTME" class="unit xs-1 sm-1 m-1 l-1"> ABOUT ME </h2>
+  <p itemprop="description" class="unit xs-1 sm-1 m-1-2 l-1-2">  Hello! I’m Cassandra, graphic designer here. I love bands, books, and all things art! This is my website, let’s you know what my style is and what i’m capable of doing. After starting my journey in College for Graphic Design I wanted to learn and expand my knowledge in print work, UI/UX design and packaging, now here I am, learning new things everyday! Hope you enjoy! </p>
+  <img itemprop="image" class="unit xs-1 sm-1 m-1-2 l-1-2"src="images/me.png"></div>
   </div>
   </div>
 
   <div class="stuff grid">
-    <h2 id="LETSCHAT" class="unit xs-1 sm-1 m-1 l-1"> LET'S CHAT </h2>
+    <h2 itemprop="name" id="LETSCHAT" class="unit xs-1 sm-1 m-1 l-1"> LET'S CHAT </h2>
     <p class="unit xs-1 sm-1 m-1 l-1"> Contact me about any information or for a quote and/or estimate for design services. <br>
-        <a href="mailto:cassandra.barbe@gmail.com">Send me an e-mail</a><br>
-        <a href="tel:613-668-9850">Give me a call</a>
+        <a itemprop="url" href="mailto:cassandra.barbe@gmail.com">Send me an e-mail</a><br>
+        <a itemprop="url" href="tel:613-668-9850">Give me a call</a>
       </p>
   </div>
 
@@ -71,11 +75,12 @@
 
 
 <footer class="text-center">
-  <a class="social" href="https://www.instagram.com/cass.wbu/">INSTAGRAM </a>
-  <a class="social" href="https://twitter.com/loveablecass">TWITTER</a>
-  <a class="social" href="https://www.behance.net/CassandraBarbe">BEHANCE</a>
-  <a class="social" href="https://ca.linkedin.com/in/cassandra-barbe-756301b4">LINKED IN</a>
-  <p class="reverse micro pad-top-double"> Copyright Cassandra Barbe </p>
+  <figure itemref="data-author" itemscope itemtype="https://schema.org/WebSite">
+  <a itemprop="url" class="social" href="https://www.instagram.com/cass.wbu/">INSTAGRAM </a>
+  <a itemprop="url" class="social" href="https://twitter.com/loveablecass">TWITTER</a>
+  <a itemprop="url" class="social" href="https://www.behance.net/CassandraBarbe">BEHANCE</a>
+  <a itemprop="url" class="social" href="https://ca.linkedin.com/in/cassandra-barbe-756301b4">LINKED IN</a>
+  <p itemprop="copyright" class="reverse micro pad-top-double"> Copyright Cassandra Barbe </p>
 </footer>
 
 </body>
