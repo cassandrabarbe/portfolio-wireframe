@@ -79,28 +79,28 @@ h3{
   padding-bottom: 2em;
 }
 
+nav{
+  width: 100%;
+}
 
-ul {
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-li {
+nav li {
     display: inline;
 }
 
-li a {
+nav li a {
     color: grey;
     text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
-    width: 25%;
+    width: 33.3%;
+    float: left;
 }
 
-.stuff{
-  padding: 1em;
-}
 
 .white{
   background-color: white;
@@ -112,8 +112,7 @@ a{
 }
 
 .top{
-  padding-left: 7em;
-  padding-bottom: 1em;
+  text-align: center;
 }
 
 a:hover{
@@ -121,8 +120,7 @@ a:hover{
 }
 
 .about{
-  padding-right: 5em;
-  padding-left: 5em;
+  padding-left: 2em;
   background-repeat: no-repeat;
 }
 
@@ -158,7 +156,7 @@ footer{
 }
 
 .bg{
-  background-color: #E1C4BB;
+  background-color: #F8E1E0;
 }
 
 
@@ -184,9 +182,6 @@ footer{
   .stuff{
   padding-left: 40px;
   }
-  .top{
-    margin-left: 10em;
-  }
 }
 
 @media only screen and (min-width: 38em) {
@@ -196,17 +191,10 @@ footer{
   .reverse{
     margin-right: 2em;
   }
-  .top{
-    margin-left: 25em;
-    padding: 0;
-  }
 }
 
 @media only screen and (min-width: 60em) {
   h1{
     margin-right: 0em;
-  }
-  .top{
-    margin-left: 35em;
   }
 }
