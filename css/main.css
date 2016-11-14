@@ -41,8 +41,9 @@ header{
 
 h1{
   font-family: 'Oswald', sans-serif;
-  color: white;
+  color: #E1C3BB;
   margin: 0;
+  padding-top: 2em;
 }
 
 h2{
@@ -71,13 +72,32 @@ h3{
   width: 50%;
 }
 
+.skills{
+  background-color: #F7E0DF;
+}
+
 .logo{
-  width: 10%;
+  width: 20%;
   display: block;
   position: static;
-  padding-bottom: 2em;
-  padding-top: 1em;
   top: 10%;
+  margin-left: 2em;
+}
+
+.btn{
+  background-color: black;
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.square{
+  padding: 2em;
+  text-align: center;
+}
+
+.photo{
+text-align: center;
 }
 
 nav{
@@ -156,8 +176,13 @@ footer{
   text-align: center;
 }
 
+.pink{
+  color: #E1C3BB;
+  text-align: center;
+}
+
 .bg{
-  background-color: #F8E1E0;
+  background-color: #F7E0DF;
 }
 
 
@@ -177,17 +202,11 @@ footer{
   header{
      width: 100%;
   }
-  
+
   .stuff{
   padding-left: 40px;
   }
-  nav li a {
-      color: grey;
-      text-align: center;
-      text-decoration: none;
-      width: 100%;
-      float: left;
-  }
+
 }
 
 @media only screen and (min-width: 38em) {
