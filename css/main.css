@@ -181,6 +181,10 @@ footer{
   text-align: center;
 }
 
+.stuff{
+  padding: 1em;
+}
+
 .bg{
   background-color: #F7E0DF;
 }
@@ -193,18 +197,11 @@ footer{
   nav a{
     padding:.5em;
   }
-  .stuff{
-  padding: .5em;
-  }
 }
 
 @media only screen and (min-width: 25em) {
   header{
      width: 100%;
-  }
-
-  .stuff{
-  padding-left: 40px;
   }
 
 }
