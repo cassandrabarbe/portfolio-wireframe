@@ -30,10 +30,10 @@ body{
 }
 
 header{
-  background-image: url("../images/header-3.png");
+  background-image: url("../images/pineapples.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100%;
+  width: 200%;
   position: relative;
   padding-bottom: 30em;
   text-align:center;
@@ -189,8 +189,12 @@ footer{
 }
 
 .image{
-  width: 50%;
+  width: 100%;
   text-align: center;
+}
+
+.unit img {
+  max-width: 100%;
 }
 
 .pink{
@@ -207,15 +211,6 @@ footer{
 }
 
 
-@media only screen and (min-width: 18em) {
-  header{
-     width: 100%;
-  }
-  nav a{
-    padding:.5em;
-  }
-}
-
 @media only screen and (min-width: 25em) {
   header{
      width: 100%;
@@ -230,6 +225,11 @@ footer{
   .reverse{
     margin-right: 2em;
   }
+  header{
+
+
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
