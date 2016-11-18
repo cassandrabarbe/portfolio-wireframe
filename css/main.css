@@ -22,7 +22,7 @@ text-size-adjust: 100%;
 
 html{
   padding:0;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Oswald', sans-serif;
 }
 
 body{
@@ -30,18 +30,19 @@ body{
 }
 
 header{
-  background-image: url("../images/header.png");
+  background-image: url("../images/header-3.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  padding-bottom: 4em;
   position: relative;
+  padding-bottom: 30em;
+  text-align:center;
 
 }
 
 h1{
   font-family: 'Oswald', sans-serif;
-  color: #E1C3BB;
+  color: white;
   margin: 0;
   padding-top: 2em;
 }
@@ -49,6 +50,7 @@ h1{
 h2{
   font-family: 'Oswald', sans-serif;
   padding-top: 1em;
+  text-align: center;
 }
 
 h3{
@@ -96,6 +98,14 @@ h3{
   text-align: center;
 }
 
+.about{
+  padding-top: 2em;
+}
+
+.chat:hover{
+  color: white;
+}
+
 .photo{
 text-align: center;
 }
@@ -125,6 +135,8 @@ nav li a {
 
 .white{
   background-color: white;
+  position: fixed;
+  width: 100%;
 }
 
 a{
@@ -176,8 +188,13 @@ footer{
   text-align: center;
 }
 
+.image{
+  width: 50%;
+  text-align: center;
+}
+
 .pink{
-  color: #E1C3BB;
+  color: white;
   text-align: center;
 }
 
