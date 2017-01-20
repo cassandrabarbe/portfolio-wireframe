@@ -321,6 +321,9 @@ a:hover{
   text-align: center;
 }
 
+.font{
+  font-family: 'Quicksand', sans-serif;
+}
 .image{
   width: 100%;
   text-align: center;
