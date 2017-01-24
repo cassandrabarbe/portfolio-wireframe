@@ -187,6 +187,16 @@ div.container {
   margin-bottom: 0.5em;
 }
 
+.logo-2{
+  width: 5%;
+  display: block;
+  position: static;
+  top: 50%;
+  margin-top: 0.5em;
+  margin-left: 2em;
+  margin-bottom: 0.5em;
+}
+
 .yoo{
   padding-top: 3em;
 }
@@ -236,7 +246,7 @@ nav li a {
     color: grey;
     text-align: center;
     text-decoration: none;
-    width: 33.3%;
+    width: 50%;
     float: left;
 }
 
